@@ -1,6 +1,7 @@
 # Automação de processos
 
-Neste projeto iremos automatizar uma tarefa, ou seja, algum processo rotineiro usando automação no computador para realizar atividades do dia a dia poupando tempo e mão de obra.
+Neste projeto iremos automatizar uma tarefa, ou seja, algum processo rotineiro usando automação no computador para realizar atividades do dia a dia poupando tempo e mão de obra.<br>
+(OBS: Todo o código fonte está bemcomentado para facilitar o entendimento das soluções)
 
 # Entendimento do negócio
 
@@ -20,3 +21,22 @@ Imagine que voçê é analista de dados de uma empresa que tem 25 filiais espalh
 - Quantidade de vendas de produtos por ano = 120;
 - Ticket médio por dia = 500;
 - Ticket médio por ano = 500.
+
+
+# Configurações importantes do projeto
+
+### Configurando email outlook
+
+    import win32com.client as win32
+    outlook = win32Dispatch('outlook.application')
+
+    mail = outlook.CreateItem(0)
+    mail.To = 'dev.daniel.amorim@gmail.com'
+    mail.CC = 'email@gmail.com'
+    mail.BCC = 'email@gmail.com'
+    mail.Subject = 'Email vindo do outlook'
+    mail.Body = 'texto do email'
+    # ou mail.HTML.Body = '<p>email em HTML</p>'
+
+    # Anexos (pode ser quantos quiser):
+    attachment = "caminho do arquivo"
