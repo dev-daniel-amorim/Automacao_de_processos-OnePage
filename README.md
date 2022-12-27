@@ -29,11 +29,13 @@ Imagine que voçê é analista de dados de uma empresa que tem 25 filiais espalh
 Os emails deste projeto serão enviados via "outlook" abaixo a configuração para envio:
 
     import win32com.client as win32
-    outlook = win32Dispatch('outlook.application')
+    outlook = win32.Dispatch('outlook.application')
 
     mail = outlook.CreateItem(0)
     mail.To = 'dev.daniel.amorim@gmail.com'
+    # Com copia? (não obrigatório)
     mail.CC = 'email@gmail.com'
+    # Com copia oculta? (não obrigatório)
     mail.BCC = 'email@gmail.com'
     mail.Subject = 'Email vindo do outlook'
     mail.Body = 'texto do email'
