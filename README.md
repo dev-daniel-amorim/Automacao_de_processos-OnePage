@@ -12,3 +12,11 @@ Imagine que voçê é analista de dados de uma empresa que tem 25 filiais espalh
 - Diversidade de produtos (quantos produtos diferentes foram vendidos naquele período);
 - Ticket médio por venda.
  
+### Metas
+
+- Faturamento por dia = 1000;
+- Faturamento por ano = 1650000;
+- Quantidade de vendas de produtos por dia = 4;
+- Quantidade de vendas de produtos por ano = 120;
+- Ticket médio por dia = 500;
+- Ticket médio por ano = 500.
