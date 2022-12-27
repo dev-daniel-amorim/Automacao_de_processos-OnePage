@@ -26,6 +26,7 @@ Imagine que voçê é analista de dados de uma empresa que tem 25 filiais espalh
 # Configurações importantes do projeto
 
 ### Configurando email outlook
+Os emails deste projeto serão enviados via "outlook" abaixo a configuração para envio:
 
     import win32com.client as win32
     outlook = win32Dispatch('outlook.application')
@@ -40,3 +41,6 @@ Imagine que voçê é analista de dados de uma empresa que tem 25 filiais espalh
 
     # Anexos (pode ser quantos quiser):
     attachment = "caminho do arquivo"
+    mail.Attachments.Add(attachment)
+    # Envia o email
+    mail.Send()
