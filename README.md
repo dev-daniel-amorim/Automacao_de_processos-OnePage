@@ -47,3 +47,13 @@ Os emails deste projeto serão enviados via "outlook" abaixo a configuração pa
     mail.Attachments.Add(attachment)
     # Envia o email
     mail.Send()
+
+# E-mails enviados:
+Segue abaixo os exemplos de e-mails enviados:<br>
+
+#### E-mail para loja:
+![Captura de tela_20230102_153006](https://user-images.githubusercontent.com/115194365/210268112-0c516ca7-4382-4580-959b-ea759320ee8e.png)
+
+#### E-mail para diretoria:
+![Captura de tela_20230102_152911](https://user-images.githubusercontent.com/115194365/210268164-b0583acc-01c6-4948-98bc-fda5e1333dda.png)
+
