@@ -47,3 +47,23 @@ Os emails deste projeto serão enviados via "outlook" abaixo a configuração pa
     mail.Attachments.Add(attachment)
     # Envia o email
     mail.Send()
+    
+# Modelo em produção
+Abaixo a imagem do modelo em produção de disparo de e-mails:<br>
+- ENVIAR PARA LOJA: Ao digitar no input o nome da loja dispara e-mail somente para a loja específica;
+- ENVIAR PARA TODAS AS LOJAS: Envia para todas as lojas cadastradas de uma vez;
+- ENVIAR PARA DIRETORIA: Envia e-mails com resumo das lojas somente para diretoria.
+
+#### Modelo em produção:
+![Captura de tela_20230102_153601](https://user-images.githubusercontent.com/115194365/210268658-5b085dd6-61bc-4b22-aefd-8976c9f1fde8.png)
+
+
+# E-mails enviados:
+Segue abaixo os exemplos de e-mails enviados:<br>
+
+#### E-mail para loja:
+![Captura de tela_20230102_153006](https://user-images.githubusercontent.com/115194365/210268112-0c516ca7-4382-4580-959b-ea759320ee8e.png)
+
+#### E-mail para diretoria:
+![Captura de tela_20230102_152911](https://user-images.githubusercontent.com/115194365/210268164-b0583acc-01c6-4948-98bc-fda5e1333dda.png)
+
