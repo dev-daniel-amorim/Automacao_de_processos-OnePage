@@ -48,6 +48,17 @@ Os emails deste projeto serão enviados via "outlook" abaixo a configuração pa
     # Envia o email
     mail.Send()
     
+#### Dica interessante:
+Um e-mail pode ser enviado em formato HTML, caso queira enviar uma tabela no corpo do e-mail, basta<br>
+pra isso transformar a tabela em HTML da seguinte maneira:
+
+    mail.HTMLBody = f'''
+    Bom dia,
+    Segue a tabela de pesquisa de preços!
+    {tabela.to_html(index=False)} #index false exclui a coluna de index
+    '''
+
+    
 # Modelo em produção
 Abaixo a imagem do modelo em produção de disparo de e-mails:<br>
 - ENVIAR PARA LOJA: Ao digitar no input o nome da loja dispara e-mail somente para a loja específica;
