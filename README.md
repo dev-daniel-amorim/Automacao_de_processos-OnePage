@@ -1,7 +1,6 @@
-# Automação de processos
+# AD e Automação de processos
 
-- Neste projeto iremos automatizar uma tarefa, ou seja, algum processo rotineiro usando automação no computador para realizar atividades do dia a dia poupando tempo e mão de obra.<br>
-(OBS: Todo o código fonte está bem comentado para facilitar o entendimento das soluções)
+- Neste projeto iremos realizar análise de dados e automação de processos para executar tarefas rotineiras.
 
 # Entendimento do negócio
 
