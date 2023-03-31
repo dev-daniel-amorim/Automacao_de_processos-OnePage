@@ -1,4 +1,4 @@
-# AD e Automação de processos
+# Selenium - Automação de processos
 
 - Neste projeto iremos realizar análise de dados e automação de processos para executar tarefas rotineiras.
 
