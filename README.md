@@ -1,6 +1,6 @@
-# Selenium - Automação de processos
+# Automação de processos - OnePage
 
-- Neste projeto iremos realizar análise de dados e automação de processos para executar tarefas rotineiras.
+- Neste projeto iremos realizar análise de dados com pandas e automação de processos para executar tarefas rotineiras, ainda criaremos um app em produção com auxilio da biblioteca Tkinter do Python.
 
 # Entendimento do negócio
 
@@ -76,17 +76,4 @@ Segue abaixo os exemplos de e-mails enviados:<br>
 
 #### E-mail para diretoria:
 ![Captura de tela_20230102_152911](https://user-images.githubusercontent.com/115194365/210268164-b0583acc-01c6-4948-98bc-fda5e1333dda.png)
-
-# Desenvolvedor
-
-| [<img src="https://user-images.githubusercontent.com/115194365/202005566-f6278b6c-4f75-416f-b01c-e79b8d04f02e.jpg" width=115><br><sub>Daniel de Souza Amorim</sub>](https://github.com/DaniellsamorimGit) |
-| :---: | 
-
-#### Mais sobre o autor: <br>
-Graduado em Engenharia de computação;<br>
-Pós-graduado em Petróleo e gás;<br>
-Desenvolvedor de dispositivos embarcados, C++, Python;<br>
-Tecnologias Django, Flask, Selenium, Pandas, MySQL, HTML, Css e Javascript;<br>
-Áreas de interesse: Desenvolvimento BackEnd, Data science.<br>
-
 
